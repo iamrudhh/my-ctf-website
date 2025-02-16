@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stellar_CTF</title>
+    <script>
+        function setFlagAndRedirect() {
+            document.cookie = "flag=stellar.CTF{Pow3r_Cook!3}; path=/";
+            window.location.href = 'admin.html';
+        }
+    </script>
+</head>
+<body>
+    <h1>Stellar_CTF</h1>
+    <button onclick="setFlagAndRedirect()">Continue as Admin</button>
+</body>
+</html>
